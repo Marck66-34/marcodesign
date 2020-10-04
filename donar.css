@@ -1,0 +1,79 @@
+.donar-header {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 20px;
+    margin-bottom:150px;
+   
+}
+
+.conten-donar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+.donar-header h1{
+    color:#fff;
+    font-size: 50px;
+}
+.donativo{
+    width: 80%;
+    display: block;
+}
+.donativo .donar{
+    width: 65%;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px 35px;
+    margin: auto;
+    font-size: 20px;
+    font-style: inherit;
+}
+.donativo .donar >img{
+    width:150px;
+    display:block;
+    align-items: center;
+    margin: auto;
+}
+.botonDonar a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 200px;
+    font-size: 20px;
+}
+.botonDonar {
+    background: rgba(255, 255, 255, .2);
+    width: 40%;
+    height:50px;
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    padding:10px 25px;
+    margin-top: 15px;
+}
+@media screen and (max-width:800px){
+    .donativo {
+        width: 100%;
+    }
+    .donativo .donar{
+        font-size: 15px;
+    }
+    .donativo .donar >img{
+        width: 110px;
+    }
+}
+@media screen and (max-width:400px){
+
+    .botonDonar{
+        width: 100%;
+    }
+    .donativo {
+        width:370px;
+    }
+    .donativo .donar{
+        display:block;
+        margin-left: 40px;
+    }
+}
